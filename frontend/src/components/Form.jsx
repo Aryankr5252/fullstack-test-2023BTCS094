@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const Form = () => {
 
@@ -25,6 +26,7 @@ const Form = () => {
             setGender("")
             setPhoneNumber("")
             setUserName("")
+            toast.success("User registered successfully");
             navigate("/");
         } catch (err) {
             console.log(err);
