@@ -34,12 +34,12 @@ const Form = () => {
     }
 
     return (
-        <div className='flex justify-around p-16 flex-wrap bg-black items-center pt-4 '>
+        <div className='flex justify-around sm:p-16 flex-wrap bg-black items-center pt-4 ' id='Contact'>
             <div className='flex flex-col text-center md:text-start justify-center h-full lg:pl-24 w-full lg:w-1/2'>
                 <h1 className='text-3xl sm:text-5xl  md:text-7xl text-white font-semibold mb-6 '>Registration Form</h1>
                 <p className='text-zinc-300 '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At impedit illo dolor dolore consectetur similique veritatis sed, hic, ipsum labore suscipit facilis vero praesentium, odio natus tempora quo. Ea, nihil.</p>
             </div>
-            <div className='p-10 w-full lg:w-1/2 pt-6 max-h-max'>
+            <div className='sm:p-10 w-full lg:w-1/2 pt-6 max-h-max'>
                 <div className='w-full p-8 border-2 border-blue-300 rounded-xl shadow- shadow-white bg-transparent'>
                     <h2 className='text-center text-3xl  text-white'></h2>
                 <form action="" onSubmit={SubmitHandler}>
